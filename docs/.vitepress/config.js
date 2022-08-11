@@ -1,9 +1,10 @@
 export default {
-  base: "/vite-blog",
+  base: "/vite-blog/",
   title: "VitePress",
   lang: "zh-CN",
   description: "VitePress Blog",
-  head: [["link", { rel: "icon", href: "/lightning.svg" }]],
+  ignoreDeadLinks: true,
+  head: [["link", { rel: "icon", href: "favicon.ico" }]],
   lastUpdated: true, //开启上次更新时间
   appearance: true, //是否启用“暗模式”
   //主题配置
