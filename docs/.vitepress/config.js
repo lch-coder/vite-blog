@@ -1,6 +1,7 @@
 export default {
   base: "/vite-blog",
   title: "VitePress",
+  lang: "zh-CN",
   description: "VitePress Blog",
   head: [["link", { rel: "icon", href: "/lightning.svg" }]],
   lastUpdated: true, //开启上次更新时间
@@ -19,6 +20,7 @@ export default {
           { text: "🟨 JavaScript", link: "../frontEnd/javaScript/javaScript" },
           { text: "🟦 TypeScript", link: "../frontEnd/typeScript/typeScript" },
           { text: "🟩 Vue", link: "../frontEnd/vue/vue" },
+          { text: "🟪 Element-Plus", link: "../frontEnd/elementPlus/el-table" },
         ],
       },
       {
@@ -30,20 +32,27 @@ export default {
     socialLinks: [{ icon: "github", link: "https://github.com/lch-coder" }],
     //侧边栏
     sidebar: {
-      "/frontEnd/": getFrontEndSidebar(),
+      "/frontEnd/html": [
+        {
+          text: "HTML",
+          collapsible: true,
+          items: [
+            { text: "HTML 学习路径", link: "/frontEnd/html/html" },
+            { text: "HTML 零碎笔记", link: "/FrontEnd/html/html" },
+          ],
+        },
+      ],
+      "/frontEnd/elementPlus": [
+        {
+          text: "Element-Plus",
+          collapsible: true,
+          items: [
+            { text: "el-radio", link: "/frontEnd/elementPlus/el-radio" },
+            { text: "el-table", link: "/frontEnd/elementPlus/el-table" },
+            { text: "el-form", link: "/frontEnd/elementPlus/el-form" },
+          ],
+        },
+      ],
     },
   },
 };
-
-function getFrontEndSidebar() {
-  return [
-    {
-      text: "🟧 HTML",
-      collapsible: true,
-      items: [
-        { text: "HTML 学习路径", link: "/frontEnd/html/html" },
-        { text: "HTML 零碎笔记", link: "/FrontEnd/html/html" },
-      ],
-    },
-  ];
-}
