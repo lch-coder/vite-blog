@@ -20,7 +20,7 @@ export default {
           { text: "🟥 CSS", link: "../frontEnd/css/css" },
           { text: "🟨 JavaScript", link: "../frontEnd/javaScript/javaScript" },
           { text: "🟦 TypeScript", link: "../frontEnd/typeScript/typeScript" },
-          { text: "🟩 Vue", link: "../frontEnd/vue/vue" },
+          { text: "🟩 Vue", link: "../frontEnd/vue/ref" },
           { text: "🟪 Element-Plus", link: "../frontEnd/elementPlus/el-table" },
         ],
       },
@@ -41,6 +41,12 @@ export default {
             { text: "HTML 学习路径", link: "/frontEnd/html/html" },
             { text: "HTML 零碎笔记", link: "/FrontEnd/html/html" },
           ],
+        },
+      ],
+      "/frontEnd/vue": [
+        {
+          text: "vue",
+          items: [{ text: "ref", link: "/frontEnd/vue/ref" }],
         },
       ],
       "/frontEnd/elementPlus": [
