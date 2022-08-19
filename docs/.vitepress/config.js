@@ -17,7 +17,7 @@ export default {
         activeMatch: "/frontEnd/",
         items: [
           { text: "🟧 HTML", link: "../frontEnd/html/html" },
-          { text: "🟥 CSS", link: "../frontEnd/css/css" },
+          { text: "🟥 CSS", link: "../frontEnd/css/grid" },
           { text: "🟨 JavaScript", link: "../frontEnd/javaScript/javaScript" },
           { text: "🟦 TypeScript", link: "../frontEnd/typeScript/typeScript" },
           { text: "🟩 Vue", link: "../frontEnd/vue/ref" },
@@ -41,6 +41,13 @@ export default {
             { text: "HTML 学习路径", link: "/frontEnd/html/html" },
             { text: "HTML 零碎笔记", link: "/FrontEnd/html/html" },
           ],
+        },
+      ],
+      "/frontEnd/css": [
+        {
+          text: "CSS",
+          collapsible: true,
+          items: [{ text: "Grid 布局", link: "/frontEnd/css/grid" }],
         },
       ],
       "/frontEnd/vue": [
