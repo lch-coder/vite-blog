@@ -53,7 +53,10 @@ export default {
       "/frontEnd/vue": [
         {
           text: "vue",
-          items: [{ text: "ref", link: "/frontEnd/vue/ref" }],
+          items: [
+            { text: "ref", link: "/frontEnd/vue/ref" },
+            { text: "vue3+tsx封装组件", link: "/frontEnd/vue/encapsulation" },
+          ],
         },
       ],
       "/frontEnd/elementPlus": [
