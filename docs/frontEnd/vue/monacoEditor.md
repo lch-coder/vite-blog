@@ -238,7 +238,6 @@ npm install monaco-editor
          height="500px"
          @editor-mounted="editorMounted"
        ></monacoEditor>
-       <el-button @click="refreshPage" icon="i-ep-refresh-right">刷新</el-button>
      </div>
    </template>
    
