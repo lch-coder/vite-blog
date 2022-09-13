@@ -56,6 +56,10 @@ export default {
           items: [
             { text: "ref", link: "/frontEnd/vue/ref" },
             { text: "vue3+tsx封装组件", link: "/frontEnd/vue/encapsulation" },
+            {
+              text: "vue3+vite使用monaco-editor编辑器  ",
+              link: "/frontEnd/vue/monacoEditor",
+            },
           ],
         },
       ],
