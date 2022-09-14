@@ -18,7 +18,7 @@ export default {
         items: [
           { text: "🟧 HTML", link: "../frontEnd/html/html" },
           { text: "🟥 CSS", link: "../frontEnd/css/grid" },
-          { text: "🟨 JavaScript", link: "../frontEnd/javaScript/javaScript" },
+          { text: "🟨 JavaScript", link: "../frontEnd/javaScript/lodash" },
           { text: "🟦 TypeScript", link: "../frontEnd/typeScript/typeScript" },
           { text: "🟩 Vue", link: "../frontEnd/vue/ref" },
           { text: "🟪 Element-Plus", link: "../frontEnd/elementPlus/el-table" },
@@ -48,6 +48,15 @@ export default {
           text: "CSS",
           collapsible: true,
           items: [{ text: "Grid 布局", link: "/frontEnd/css/grid" }],
+        },
+      ],
+      "/frontEnd/javaScript": [
+        {
+          text: "javaScript",
+          collapsible: true,
+          items: [
+            { text: "lodash常用操作", link: "/frontEnd/javaScript/lodash" },
+          ],
         },
       ],
       "/frontEnd/vue": [
